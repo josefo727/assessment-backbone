@@ -55,3 +55,14 @@ Ejemplo: [https://backbone.jose-gutierrez.com/api/zip-codes/01020](https://backb
 
 API original: [https://jobs.backbonesystems.io/api/zip-codes/01020](https://jobs.backbonesystems.io/api/zip-codes/01020)
 
+#### Mejora
+
+##### Api original devuelve error 500 cuando se consulta un ZipCode no existente
+
+API original: [https://jobs.backbonesystems.io/api/zip-codes/not-found](https://jobs.backbonesystems.io/api/zip-codes/not-found)
+![Resultado](/public/original-not-found.png)
+
+#### La API construída nos devuelve un 404 con un mensaje
+
+API construída: [https://backbone.jose-gutierrez.com/api/zip-codes/not-found](https://backbone.jose-gutierrez.com/api/zip-codes/not-found)
+![Resultado](/public/built-not-found.png)
