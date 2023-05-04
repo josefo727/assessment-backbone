@@ -40,3 +40,9 @@ Las pruebas de rendimiento se ejecutan automáticamente cuando se ejecuta el com
 Además, se han tomado medidas para optimizar el código y evitar la repetición de registros en la base de datos. Se ha creado un helper `normalize()` que se encarga de normalizar los valores de las cadenas de caracteres, y se ha creado un recurso `ZipCodeResource` que se encarga de formatear la respuesta de la API. También se han optimizado con upsert de los seeders para que su costo en unidades de tiempo no sea tan alto, así como una validación extra para no repetir registros al insertarlos masivamente en la base de datos.
 
 ![Batería de Tests](/public/unit-tests.jpeg)
+
+### Prueba desde el navegador
+![Browser Test](/public/browser-test.png)
+
+### Prueba desde postman
+![Batería de Tests](/public/postman-test.png)
