@@ -46,3 +46,10 @@ Además, se han tomado medidas para optimizar el código y evitar la repetición
 
 ### Prueba desde postman
 ![Batería de Tests](/public/postman-test.png)
+
+### Pruebas en línea
+
+Url de pruebas: https://backbone.jose-gutierrez.com/api/zip-codes/{zip_code}
+
+Ejemplo: [https://backbone.jose-gutierrez.com/api/zip-codes/01020](https://backbone.jose-gutierrez.com/api/zip-codes/01020)
+
